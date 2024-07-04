@@ -1,0 +1,866 @@
+@import url('https://fonts.googleapis.com/css2?family=Chivo+Mono:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sarabun:wght@800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Secular+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter+Tight:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Readex+Pro:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alexandria:wght@700&family=Sacramento&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@900&display=swap');
+
+
+.cycontainer{
+    display: flex;
+    flex-direction: column;
+}
+.section-1 {
+    font-family: 'DM Sans', sans-serif;
+    background: rgb(252, 188, 49);
+    background: linear-gradient(180deg, rgba(252, 188, 49, 1) 90%, rgba(28, 20, 25, 1) 100%);
+    display: flex;
+    height: 100%;
+    width: 100%;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.title {
+    font-size: 2vw;
+
+    
+}
+
+p {
+    margin-block-start: 0em;
+    margin-bottom: 0;
+}
+
+.catstyle {
+    height: 600px;
+    width: 360px;
+    z-index: 1;
+}
+.cyforge-demo{
+    
+    padding-top: 10vw;
+}
+
+.section-1 h1 {
+  
+    margin-bottom: 0;
+    font-size: 7vw;
+    font-family: 'Red Hat Display', sans-serif;
+}
+
+.section-1 h2 {
+    font-size: 3vw;
+    
+    
+    margin-top: 5vw;
+}
+
+.section-2 {
+    background: rgb(28, 20, 25);
+    background: linear-gradient(180deg, rgba(28, 20, 25, 1) 84%, rgba(20, 170, 163, 1) 98%);
+    /* height: 100vw; */
+    /* media for small dev */
+}
+
+.legostyle {
+    width: 31vw;
+    height: 30vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.section-2 h1 {
+    display: flex;
+    justify-content: center;
+    color: #ffffff;
+    font-size: 5vw;
+    font-family: 'Secular One', sans-serif;
+    align-items: center;
+    margin-top: 0;
+}
+
+.potrait img {
+    width: 34vw;
+}
+
+.potrait {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-height: 390px;
+}
+
+.about-section p {
+    color: rgb(255, 255, 255);
+    font-size: 2vw;
+    font-family: 'Hanken Grotesk', sans-serif;
+    background-color: #1c1419;
+    width: 40em;
+    padding: 35px 35px 35px 35px;
+   
+}
+
+
+
+.grpphoto{
+    display: flex;
+    margin-top: 10vh;
+}
+.fy-project{
+    color: white;
+}
+.archphoto{
+    margin-top: 10vh;
+    
+    
+}
+.about-section {
+    display: flex;
+    justify-content: space-around;
+}
+
+.section-3 {
+    background: rgb(20, 170, 163);
+    background: linear-gradient(180deg, rgba(20, 170, 163, 1) 81%, rgba(20, 170, 163, 1) 89%, rgb(93 252 155) 100%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.embla {
+    overflow: hidden;
+  }
+  
+  .embla__container {
+    display: flex;
+  }
+  
+  .embla__slide {
+    flex: 1 0 50%;
+    padding: 20px;
+  }
+  
+.projhead {
+    position: absolute;
+    font-family: 'Inter Tight', sans-serif;
+    font-size: 3vw;
+    margin-top: 5vw;
+}
+
+.projects {
+    margin-top: 20vh;
+    font-family: 'Readex Pro', sans-serif;
+}
+
+.projects h2 {
+    font-family: 'Readex Pro', sans-serif;
+}
+
+.skill-bars {
+    padding: 25px 30px;
+
+}
+
+.skill-bars .bar {
+    margin: 20px 0;
+}
+
+.skill-bars .bar:first-child {
+    margin-top: 0px;
+}
+
+.skill-bars .bar .info {
+    margin-bottom: 5px;
+}
+.role{
+    text-align: center;
+}
+.skill-bars .bar .info span {
+    color: white;
+    font-size: 3vw;
+    opacity: 0;
+    animation: showText 0.5s 1s linear forwards;
+    font-family: 'Alexandria', sans-serif;
+}
+
+@keyframes showText {
+    100% {
+        opacity: 1;
+    }
+}
+
+.skill-bars .bar .progress-line {
+    height: 10px;
+    width: 100%;
+    background: #f0f0f0;
+    position: relative;
+    transform: scaleX(0);
+    transform-origin: left;
+    animation: animate 1s cubic-bezier(1, 0, 0.5, 1) forwards;
+}
+
+@keyframes animate {
+    100% {
+        transform: scaleX(1);
+    }
+}
+
+.bar .progress-line span {
+    height: 100%;
+    position: absolute;
+    transform: scaleX(0);
+    transform-origin: left;
+    background: #6665ee;
+    animation: animate 1s 1s cubic-bezier(1, 0, 0.5, 1) forwards;
+}
+.video-demo{
+    margin-left: 20vw;
+}
+.bar .progress-line.html span {
+    width: 90%;
+}
+
+.bar .progress-line.css span {
+    width: 60%;
+}
+
+.bar .progress-line.jquery span {
+    width: 85%;
+}
+
+.bar .progress-line.python span {
+    width: 85%;
+}
+
+.bar .progress-line.mysql span {
+    width: 75%;
+}
+
+.bar .progress-line.flutter span {
+    width: 90%;
+}
+
+.bar .progress-line.ReactNative span{
+    width: 80%;
+}
+
+.bar .progress-line.cpp span {
+    width: 85%;
+}
+
+.bar .progress-line.opencv span {
+    width: 60%;
+}
+
+.progress-line span::before {
+    position: absolute;
+    content: "";
+    top: -10px;
+    right: 0;
+    height: 0;
+    width: 0;
+    border: 7px solid transparent;
+    border-bottom-width: 0px;
+    border-right-width: 0px;
+    border-top-color: #000;
+    opacity: 0;
+    animation: showText2 0.5s 1.5s linear forwards;
+}
+
+.progress-line span::after {
+    position: absolute;
+    top: -28px;
+    right: 0;
+    font-weight: 500;
+    background: #000;
+    color: #fff;
+    padding: 1px 8px;
+    font-size: 12px;
+    opacity: 0;
+    animation: showText2 0.5s 1.5s linear forwards;
+}
+
+@keyframes showText2 {
+    100% {
+        opacity: 1;
+    }
+}
+
+.progress-line.html span::after {
+    content: "90%";
+}
+
+.progress-line.css span::after {
+    content: "60%";
+}
+
+.progress-line.jquery span::after {
+    content: "85%";
+}
+
+.progress-line.python span::after {
+    content: "85%";
+}
+
+.progress-line.mysql span::after {
+    content: "75%";
+}
+
+.progress-line.flutter span::after {
+    content: "90%";
+}
+
+.progress-line.firebase span::after {
+    content: "80%";
+}
+
+.progress-line.cpp span::after {
+    content: "85%";
+}
+
+.progress-line.ReactNative span::after {
+    content: "80%";
+}
+
+.skill {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.section-4 {
+    font-family: 'Alexandria', sans-serif;
+}
+
+.section-4 h1 {
+    display: flex;
+    justify-content: space-around;
+    font-size: 3vw;
+    padding-top: 3vh;
+}
+
+.section-4 span {
+    font-family: 'DM Sans', sans-serif;
+}
+
+.contact-icon {
+    display: flex;
+    flex-direction: column;
+    padding-left: 10px;
+}
+
+.contact {
+    display: flex;
+    align-items: center;
+    padding-top: 10px;
+    display: flex;
+    align-items: center;
+    padding-top: 47px;
+    font-size: 2.5vh;
+ 
+}
+
+.contact-us {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding-bottom: 5vh;
+    padding-top: 5vh;
+}
+
+.btn {
+    background: transparent;
+    width: 200px;
+    position: relative;
+    padding: 15px;
+    color: #1ECD97;
+    cursor: pointer;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    transition: all 500ms cubic-bezier(0.6, -0.28, 0.735, 0.045);
+    border-radius: 4px;
+    font-weight: 600;
+    overflow: hidden;
+    border: 2px solid #1ECD97;
+    text-decoration: none;
+}
+
+.resume-cv {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.resume-cv h2 {
+    font-size: 3.5vh;
+    padding-bottom: 3vh;
+}
+
+.section-5 {
+    font-family: 'Red Hat Display', sans-serif;
+    font-size: 5vh;
+    background: linear-gradient(179deg, rgb(92 251 155) 0%, rgba(95, 255, 154, 1) 100%);}
+    .section-6{
+    font-family: 'Red Hat Display', sans-serif;
+    font-size: 5vh;
+    background: linear-gradient(179deg, rgb(95, 255, 154,1) -3%, rgb(4 97 55) 125%);   
+}
+
+    .namo-app h1{
+
+        font-family: 'Alexandria', sans-serif;
+        color: #404040e6;
+    }
+
+    .section-7{
+        font-family: 'Red Hat Display', sans-serif;
+        font-size: 5vh;
+     
+        padding-top: 35vh;
+    background: linear-gradient(180deg, rgb(24 132 77) 1%,rgb(37, 37, 37) 31%);}
+        .sb-head{
+            color: white;
+            font-family: 'Alexandria', sans-serif;
+            font-weight: 800;
+            font-size: 7vh;
+        }
+        .namo-img{
+            max-width: 80%;
+            padding-left: 5%;
+        }
+        .namo-txt{
+            padding-left: 2%;
+            
+        }
+        
+        .section-8{
+            padding-top: 30vh;
+            font-family: 'Red Hat Display', sans-serif;
+            font-size: 5vh;
+            background: linear-gradient(179deg, rgb(37,37,37) 0%, rgb(20, 20, 20) 100%);
+            padding-bottom: 10vw;
+        }
+        .cyhead{
+            color: white;
+            font-family: 'Alexandria', sans-serif;
+            font-weight: 800;
+            font-size: 7vh;
+        }
+        
+        
+       
+.games-ig {
+    display: flex;
+    justify-content: center;
+}
+
+.game-text {
+    font-family: 'Raleway', sans-serif;
+    color: rgb(255 77 208);
+    margin-left: 10px;
+}
+
+.carousel {
+    width: 61vw;
+    margin-left: 20vw;
+}
+
+.instagram-section {
+    display: flex;
+    display: flex;
+    margin-top: 4vh;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.namo-app h1{
+   align-items: justify;
+   font-size: 6vh;
+}
+.sb-desc{
+    font-family: 'Readex Pro', sans-serif;
+    font-size: 0.8em;
+
+    font-style: bold;
+    color: white;
+
+}
+.namo-txt{
+    width: 100%;
+}
+
+.namo-desc{
+        font-family: 'Readex Pro', sans-serif;
+    font-size: 0.8em;
+   color: white;
+   display: flex;
+
+
+
+
+}
+
+.cy-desc{
+    font-family: 'Readex Pro', sans-serif;
+font-size: 0.8em;
+
+}
+/* .namo-desc{
+    font-family: 'Readex Pro', sans-serif;
+font-size: 0.8em;
+font-style: bold;
+min-width: 35em;
+padding: 55px 35px 35px 55px;
+margin-left: 20vh;
+} */
+
+
+.namo-banner{
+    display: flex;
+    flex-direction: row;    
+    padding-bottom: 10%;
+    padding-top: 10%;
+}
+
+.gdown-image{
+
+margin-top:3vw;
+}
+
+
+
+@media (max-width:320px) {
+
+  
+    .section-1 {
+        display: flex;
+        flex-direction: column;
+        height: 40em;
+    }
+    .section-1-names {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+    .section-1 h1 {
+        font-size: 3em;
+    }
+    .section-1 h2 {
+        font-size: 0.3em;
+    }
+    .title {
+        font-size: 0.8em;
+    }
+    .section-2 h1 {
+        font-size: 3em;
+    }
+    .legostyle {
+        width: 10em;
+        height: 10em;
+    }
+
+    .moonstyle {
+
+        width: 20em;
+        height: 20em;
+    }
+    .about-section p {
+        font-size: 1.4em;
+    }
+    .section-2 {
+        height: 90em;
+    }
+    .skill {
+        display: flex;
+        flex-direction: column;
+    }
+ 
+    .catstyle {
+        height: 18em;
+    }
+    .projhead h1 {
+        font-size: 1.5em;
+    }
+    .instagram-section {
+        display: flex;
+        flex-direction: column;
+    }
+    .instagram-section h1 {
+        font-size: 0.7em;
+    }
+    .section-4 {
+        display: flex;
+        flex-direction: column;
+    }
+    .contact-us {
+        display: flex;
+        flex-direction: column;
+    }
+    .section-4 h1 {
+        font-size: 3.5em;
+    }
+    .resume-cv {
+        margin-top: 5em;
+    }
+    .namo-app {
+        display: flex;
+        flex-direction: column;
+        
+    }
+    .namo-desc{max-height: 100
+        ;}
+        .cy-desc{
+            font-family: 'Readex Pro', sans-serif;
+        font-size: 20px;
+        
+        }
+       
+     
+}
+
+
+
+    
+
+
+@media (max-width:480px) {
+    .skill-bars{
+        max-width: 370px;
+    }
+
+ 
+    .namo-img{
+        display: flex;
+        /* max-width: 80%; */
+        padding-left: 4%;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .namo-app h1{
+        font-size: 3vh;
+    }
+    .section-1 {
+        display: flex;
+        flex-direction: column;
+        height: 40em;
+    }
+    .section-1-names {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+    .section-1 h1 {
+        font-size: 3em;
+    }
+    .section-1 h2 {
+        font-size: 0.3em;
+    }
+    .title {
+        font-size: 0.8em;
+    }
+    .section-2 h1 {
+        font-size: 3em;
+    }
+    .legostyle {
+        width: 10em;
+        height: 10em;
+    }
+    .about-section p {
+        font-size: 1.4em;
+    }
+    .section-2 {
+        height: 90em;
+    }
+    .skill {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .catstyle {
+        height: 18em;
+    }
+    .projhead h1 {
+        font-size: 1.5em;
+    }
+    .instagram-section {
+        display: flex;
+        flex-direction: column;
+    }
+    .instagram-section h1 {
+        font-size: 0.7em;
+    }
+    .section-4 {
+        display: flex;
+        flex-direction: column;
+    }
+    .contact-us {
+        display: flex;
+        flex-direction: column;
+    }
+    .section-4 h1 {
+        font-size: 3.5em;
+    }
+    .resume-cv {
+        margin-top: 5em;
+    }
+
+}
+
+@media (max-width:600px) {
+   
+    .namo-desc{
+        font-size: 0.5em;
+    }
+    .sb-desc{
+        font-size: 0.7em;
+    }
+    /* portrait tablets, portrait iPad, e-readers (Nook/Kindle), landscape 800x480 phones (Android) */
+    .cy-desc{
+        font-size: 0.5em;
+    }
+    .section-1 {
+        display: flex;
+        flex-direction: column;
+        height: 40em;
+    }
+    .section-1-names {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+    .section-1 h1 {
+        font-size: 3em;
+    }
+    .section-1 h2 {
+        font-size: 1.1em;
+    }
+    .title {
+        font-size: 0.8em;
+    }
+    .section-2 h1 {
+        font-size: 3em;
+    }
+    .legostyle {
+        width: 10em;
+        height: 10em;
+    }
+    .about-section p {
+        font-size: 1.4em;
+    }
+    .section-2 {
+        height: 90em;
+    }
+    .skill {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+   
+    .catstyle {
+        height: 18em;
+    }
+    .projhead h1 {
+        font-size: 1.6em;
+    }
+    .instagram-section {
+        display: flex;
+        flex-direction: column;
+    }
+    .instagram-section h1 {
+        font-size: 0.5em;
+    }
+    .section-4 {
+        display: flex;
+        flex-direction: column;
+    }
+    .contact-us {
+        display: flex;
+        flex-direction: column;
+    }
+    .section-4 h1 {
+        font-size: 2.5em;
+    }
+    .resume-cv {
+        margin-top: 5em;
+    }
+    .games-ig h1 {
+        font-size: 0.5em;
+    }
+    .carousel {
+        width: 6em;
+    }
+    .contact {
+        font-size: medium;
+    }
+    
+}
+
+@media (max-width:801px) {
+    /* tablet, landscape iPad, lo-res laptops ands desktops */
+}
+
+@media (max-width: 1200px) { 
+
+.namo-banner{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.namo-app h1{
+    font-size: 7vh;
+    text-align: center;
+}
+.namo-desc{
+    text-align: center;
+    padding-top: 20px;
+}
+.sb-app-content{
+
+    display: flex;
+    flex-direction: column;
+}
+.sb-head{
+text-align: center;
+}
+.sb-desc{
+    text-align: center;
+}
+.sb-app-content a{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top:10px ;
+}
+  
+
+}
+
+@media (min-width: 600px) and (max-width: 1300px) { 
+
+    .section-2{
+     min-height: 250vw;   
+    }
+    .skill{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .contact-us{
+        display: flex;
+        flex-direction: column;
+    }
+    .resume-cv{
+        padding-top: 4%;
+    }
+ }
