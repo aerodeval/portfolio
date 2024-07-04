@@ -253,7 +253,7 @@ export default function Home()  {
                 style={{ alignItems: 'center' }}
               />
               <Stack mt='6' spacing='3'>
-                <Heading size='md'>Sydney's Memoir</Heading>
+                <Heading size='md'>Sydney's Memoirs</Heading>
                 <Text>
                   This web app, built with Next.js and Firebase Authentication, serves as a comprehensive log for all my gaming experiences. By utilizing Next.js, the app delivers fast and smooth performance, while Firebase Authentication ensures secure and easy access. The app allows users to document, track, and review their gaming activities, creating a personalized and interactive platform for gamers to chronicle their journey and share experiences.
                 </Text>
