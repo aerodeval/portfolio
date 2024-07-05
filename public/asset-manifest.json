@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/static/css/main.b63c92d5.css",
+    "main.js": "/static/js/main.c022205f.js",
+    "static/js/787.28cb0dcd.chunk.js": "/static/js/787.28cb0dcd.chunk.js",
+    "static/media/got2.jpg": "/static/media/got2.e465f22661c675ce126a.jpg",
+    "static/media/got1.jpg": "/static/media/got1.7b5a4370bffb1633456d.jpg",
+    "static/media/ds1.jpg": "/static/media/ds1.a3edae703d75ac9f01d9.jpg",
+    "static/media/gow1.jpg": "/static/media/gow1.bba57e9e26cb52d82842.jpg",
+    "static/media/uc1.jpg": "/static/media/uc1.a11d4f8d2bba120c0442.jpg",
+    "static/media/ds2.jpg": "/static/media/ds2.9508381e900a7e863a0b.jpg",
+    "static/media/sydney-5019122.pdf": "/static/media/sydney-5019122.0d16c1fa70b84430d2e3.pdf",
+    "static/media/chalk arrow.png": "/static/media/chalk arrow.aa027ca35829bb1e0ac8.png",
+    "static/media/chalktxt.png": "/static/media/chalktxt.f114fd17c6465aa79929.png",
+    "static/media/cat.riv": "/static/media/cat.4b985896cd4aaf8da6f1.riv",
+    "static/media/lego.riv": "/static/media/lego.1e4fd285d5be05f89b70.riv",
+    "static/media/logo.svg": "/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/index.html",
+    "main.b63c92d5.css.map": "/static/css/main.b63c92d5.css.map",
+    "main.c022205f.js.map": "/static/js/main.c022205f.js.map",
+    "787.28cb0dcd.chunk.js.map": "/static/js/787.28cb0dcd.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b63c92d5.css",
+    "static/js/main.c022205f.js"
+  ]
+}
