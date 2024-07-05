@@ -1,9 +1,9 @@
-import React, { Component } from 'react';
+import React from 'react';
 import './Home.css';
 import Cat from './Cat';
 import Lego from './Lego';
 import useEmblaCarousel from 'embla-carousel-react'
-import { Card, CardHeader, CardBody, SimpleGrid, Heading, Text, Image, Stack, Box } from '@chakra-ui/react'
+import { Card, CardHeader, CardBody,  Heading, Text, Image, Stack } from '@chakra-ui/react'
 import { FaHtml5, FaReact, FaNodeJs, FaPython, FaLinkedin, FaGithub, FaInstagram } from 'react-icons/fa';
 import { IoLogoFirebase } from "react-icons/io5";
 import {  DiCss3, } from 'react-icons/di';
@@ -373,7 +373,7 @@ export default function Home()  {
             <h1 className="cyhead" align='center'>Final Year Project</h1>
 
             <div className='grpph'>
-              <img className="grpphoto" src={grpphoto}></img>
+              <img alt='project-group' className="grpphoto" src={grpphoto}></img>
             </div>
             <div>
               <h1 className="cyhead" align='center'>Cyforge: Forensics App (2023)</h1>
@@ -385,12 +385,12 @@ export default function Home()  {
               report creation but also empowers users to manage pastreports efficiently.
               This project significantly reduces forensics officers’ evidence-gathering time,
               automating processes and expediting report generation.
-            </p><img className="archphoto" src={arch}></img>
+            </p><img alt='arch' className="archphoto" src={arch}></img>
             <div className='row'>
 
                 <div className='cycontainer row'>
               <div className='cyforge-mockup col'>
-                <img className="cyappmock" src={cymock}></img>
+                <img alt='cyforge-mockup' className="cyappmock" src={cymock}></img>
               </div>
               <div className='cyforge-demo col'>
 

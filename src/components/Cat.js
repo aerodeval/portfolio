@@ -4,7 +4,7 @@ export default function Cat()
 {
 const STATE_MACHINE_NAME = 'State Machine 1';
 
- const {rive,RiveComponent}=useRive({
+ const {RiveComponent}=useRive({
 src:cat,
 stateMachines:STATE_MACHINE_NAME,
 autoplay:true,
