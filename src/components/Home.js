@@ -441,7 +441,7 @@ export default function Home()  {
                 }}></FaLinkedin></a>
                 <div className='contact-icon'>
                   <span>LinkedIn</span>
-                  <span href="https://www.linkedin.com/in/sydneygomes223">linkedin.com/in/sydneygomes223</span>
+                  <span href="https://www.linkedin.com/in/sydneygomes223"> sydneygomes223</span>
                 </div>
 
 

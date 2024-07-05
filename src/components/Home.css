@@ -97,6 +97,7 @@ p {
     align-items: center;
     justify-content: space-between;
     max-height: 390px;
+    margin-top:3rem;
 }
 
 .about-section p {
@@ -144,7 +145,7 @@ p {
   }
   
   .embla__slide {
-    flex: 1 0 50%;
+    flex: 1 0 35%;
     padding: 20px;
   }
   
